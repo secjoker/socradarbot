@@ -1,0 +1,91 @@
+# SocradarBot 运行配置模板 —— 复制成 config.yaml 后按需修改：
+#   cp config.example.yaml config.yaml
+#
+# 优先级：内置默认值 < config.yaml < 环境变量（SOCRADARBOT_*，兼容旧版 AI_BAOBAO_*）。
+# 所有配置也可在 Web 控制台「设置」页修改，保存后立即生效。
+
+llm:
+  base: https://api.openai.com      # OpenAI 兼容端点，不含 /v1
+  key: ""                           # 留空则 AI 功能不可用（采集/富化/推送仍可用）
+  model: gpt-4o-mini
+  timeout: 60
+
+collect:
+  interval_minutes: 10              # 定时抓取间隔（分钟）
+  fetch_limit: 10                   # 单个源每轮最多取多少条
+  keep_days: 90                     # 情报保留天数，0 = 不按日期清理
+  auto_translate: true              # 英文情报入库时自动译中
+  article_fetch: true               # 是否抓取文章正文（用于 PoC 提取与 AI 补全）
+  timeout_seconds: 25               # 单请求硬超时
+
+nuclei:
+  repo: projectdiscovery/nuclei-templates
+  ref: main
+  remote_limit: 20                  # 远程抽样条数
+  fetch_remote: false               # 是否把远程模板纳入定时抓取
+  gen_templates: true               # 为收录漏洞生成 nuclei 模板
+  sync_enabled: true                # 定时任务自动同步模板库增量
+  sync_limit: 0                     # 单次同步最多入库几条，0 = 不限
+
+# 数据富化：补齐 CVE / CVSS / EPSS / KEV / 影响范围
+enrich:
+  enabled: true
+  epss: true                        # FIRST.org EPSS 利用概率
+  kev: true                         # CISA 已知在野利用目录（同时作为数据源）
+  github_advisory: true             # GitHub Security Advisory 数据源
+  nvd: true                         # NVD 近期 CVE（自带 CVSS / CPE 影响范围；无 token 时限流 5 次/30s）
+  timeout_seconds: 20
+  cache_hours: 24
+  github_token: ""                  # 配置后 GitHub API 限流从 60/h 提升到 5000/h
+
+# 高价值情报推送
+push:
+  enabled: false                    # 总开关，开启后每轮采集完自动推送
+  min_score: 60                     # 风险分阈值（0-100）
+  min_severity: ""                  # 严重性下限：high / critical，留空不限
+  require_cve: false                # 必须关联 CVE 才推送
+  require_poc: false                # 必须有 PoC / 模板才推送
+  keywords_include: []              # 标题或摘要命中任一关键词才推送（空 = 不限）
+  keywords_exclude: []              # 标题命中任一关键词则不推送
+  max_per_batch: 10                 # 单次最多推送几条
+  cooldown_minutes: 30              # 冷却窗口
+  channels:
+    # 企业微信群机器人：Webhook 形如 https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx
+    - name: wecom
+      type: wecom
+      webhook: ""
+      enabled: false
+    # 钉钉群机器人：支持加签（secret 填 SEC 开头字符串）
+    - name: dingtalk
+      type: dingtalk
+      webhook: ""
+      secret: ""
+      enabled: false
+    # 飞书群机器人：支持签名校验
+    - name: feishu
+      type: feishu
+      webhook: ""
+      secret: ""
+      enabled: false
+    # Slack Incoming Webhook
+    - name: slack
+      type: slack
+      webhook: ""
+      enabled: false
+    # Telegram Bot：webhook 填 https://api.telegram.org/bot<token>/sendMessage 或只填 token
+    - name: telegram
+      type: telegram
+      webhook: ""
+      chat_ids: []
+      enabled: false
+    # 通用 Webhook：POST JSON（source/title/markdown），便于对接内部 IM 网关
+    - name: internal
+      type: webhook
+      webhook: ""
+      enabled: false
+
+# 漏洞源：内置源 + 设置页接入的自定义 RSS
+# disabled 按 ID 停用内置源，可选：seebug / 先知 / exploit-db / chaitin / oscs / qianxin-ti / cisa-kev / nvd / github-advisory
+sources:
+  disabled: []
+  custom: []

@@ -1,0 +1,16 @@
+{
+  "name": "socradarbot",
+  "version": "1.2.0",
+  "private": true,
+  "description": "AI-powered vulnerability intelligence aggregation, enrichment, scoring and multi-channel push",
+  "scripts": {
+    "build": "node -e \"console.log('web/dist is prebuilt and committed')\"",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev",
+    "demo:data": "node scripts/build-demo-data.mjs",
+    "web:build": "cd web && npm ci && npm run build"
+  },
+  "devDependencies": {
+    "wrangler": "^4.134.0"
+  }
+}

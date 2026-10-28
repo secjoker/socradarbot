@@ -1,0 +1,2738 @@
+{
+  "generated_at": "2026-10-28T09:29:21.022Z",
+  "items": [
+    {
+      "id": "chaitin-ct-6015903",
+      "name": "CVE-2026-114119 Best Practice Software Bp Premier before 1.",
+      "source": "chaitin",
+      "summary": "Best Practice Software Bp Premier before 1.14.1.1128 uses a hardcoded Microsoft SQL Server administrative password that …",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-114119"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/36edb6de-d847-43bc-b99f-1f10dd0d1e49",
+        "https://def.ci-isac.org.au/vuln/records/GCVE-123-2026-0001.json",
+        "https://kb.bestpracticesoftware.com/bppremier/oxford/WhatsNew/BpPremier_OxfordSP1_ReleaseNotes.htm",
+        "https://www.vulncheck.com/advisories/best-practice-software-bp-premier-before-1.14.1.1128-hardcoded-sql-server-administrative-credential"
+      ],
+      "affected_products": [],
+      "epss": 0.00428,
+      "epss_percentile": 0.36012,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6015943",
+      "name": "CVE-2026-113744 A security vulnerability has been detected in Tenda AC19 16.",
+      "source": "chaitin",
+      "summary": "A security vulnerability has been detected in Tenda AC19 16.03.10.07. The impacted element is the function formSetFirewa…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-113744"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/66baa6f7-ec9e-460b-add5-5bb88efb9f34",
+        "https://github.com/henrythekingofuk/TendaCVE",
+        "https://vuldb.com/cve/CVE-2026-113744",
+        "https://vuldb.com/submit/1018542",
+        "https://vuldb.com/vuln/422925",
+        "https://vuldb.com/vuln/422925/cti"
+      ],
+      "affected_products": [],
+      "epss": 0.00622,
+      "epss_percentile": 0.49127,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-86913",
+      "name": "LearnPress反序列化漏洞(CVE-2026-104736)",
+      "source": "qianxin-ti",
+      "summary": "LearnPress 是一款用于 WordPress 的在线课程管理插件，旨在帮助教育机构和企业构建、管理和销售在线课程，支持课程创建、学生管理、支付集成等功能，广泛应用于各类教育网站。该漏洞影响 LearnPress 版本 4.4.10 …",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-17",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-104736"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/521857"
+      ],
+      "affected_products": [],
+      "epss": 0.00438,
+      "epss_percentile": 0.36987,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-17",
+      "entry_iso": "2026-10-17",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-87805",
+      "name": "Mercury匿名内核执行漏洞(CVE-2026-111058)",
+      "source": "qianxin-ti",
+      "summary": "Mercury 是一个用于将 Jupyter 笔记本共享为 Web 应用程序和仪表板的 Python 框架。在 3.2.6 之前，默认的无令牌部署允许匿名客户端创建 Jupyter 内核，并发送包含任意 Python 的 execute_r…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-19",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-111058"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/522749"
+      ],
+      "affected_products": [],
+      "epss": 0.00437,
+      "epss_percentile": 0.36976,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-19",
+      "entry_iso": "2026-10-19",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-90012",
+      "name": "PHP Core 远程代码执行漏洞(CVE-2026-109618)",
+      "source": "qianxin-ti",
+      "summary": "PHP 是一种广泛使用的开源服务器端脚本语言，主要用于 Web 开发，是 WordPress、Drupal 等内容管理系统及大量共享主机环境的基础运行时。此漏洞影响 PHP 核心组件。根据公开情报，攻击者可能在无需身份认证的情况下，通过发送…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T07:37:14",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-109618"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "关键漏洞",
+        "影响千万级",
+        "php2shell",
+        "0day漏洞"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/524956"
+      ],
+      "affected_products": [],
+      "epss": 0.05307,
+      "epss_percentile": 0.92563,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 5%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-90013",
+      "name": "PHP Core 远程代码执行漏洞(CVE-2026-109619)",
+      "source": "qianxin-ti",
+      "summary": "PHP 是一种广泛使用的开源通用脚本语言，主要用于 Web 开发，能够嵌入 HTML 中执行动态内容生成、数据库交互及会话管理等任务。其 session.upload_progress 功能允许服务器端跟踪大文件上传的进度，通过缓存会话 H…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T07:37:14",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-109619"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "关键漏洞",
+        "影响千万级",
+        "php2shell",
+        "0day漏洞"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/524957"
+      ],
+      "affected_products": [],
+      "epss": 0.05757,
+      "epss_percentile": 0.93049,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 6%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-90016",
+      "name": "GitLab CE/EE 远程代码执行漏洞(CVE-2026-110264)",
+      "source": "qianxin-ti",
+      "summary": "GitLab是一个基于Web的开源DevOps平台，提供完整的软件开发生命周期管理功能，包括Git代码仓库托管、持续集成与持续部署流水线、代码审查、问题跟踪及团队协作工具。该平台支持分布式版本控制，帮助开发团队高效地进行代码管理、自动化测试…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-22",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-110264"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/524960"
+      ],
+      "affected_products": [],
+      "epss": 0.00505,
+      "epss_percentile": 0.42235,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-22",
+      "entry_iso": "2026-10-22",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-90335",
+      "name": "Brotli解码器缓冲区溢出漏洞(CVE-2026-111497)",
+      "source": "qianxin-ti",
+      "summary": "Google Brotli 1.0.3 至 1.2.0 版本中 c/dec/decode.c 中的 Brotli 解码器存在缓冲区溢出漏洞，可在所有平台上允许远程未认证攻击者使用精心构造的 Brotli 压缩流来破坏相邻的解码器状态内存、泄…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-22",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/525279"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-22",
+      "entry_iso": "2026-10-22",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-90350",
+      "name": "YOOtheme Pro未认证RCE漏洞(CVE-2026-102785)",
+      "source": "qianxin-ti",
+      "summary": "Joomla 扩展 - yootheme.com - 未授权的 YOOtheme Pro 5.0.0-5.0.52 远程代码执行：YOOtheme Pro 的公开可访问图像转换处理程序未能将其归一化图像操作和输出目的地与其请求签名完全绑定。…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-22",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-102785"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/525294"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 100,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-22",
+      "entry_iso": "2026-10-22",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "oscs-mps-sx6z-0b74",
+      "name": "Apache CXF JMS ObjectMessage 反序列化漏洞",
+      "source": "oscs",
+      "summary": "Apache CXF 是开源 Java Web 服务框架，其 cxf-rt-transports-jms 模块提供基于 JMS 的传输能力，用于 SOAP/REST 等服务消息收发。\n受影响版本中，JMS 传输在处理入站消息时，JMSMes…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-08-07",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": 9.8,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-66909"
+      ],
+      "cwe": [],
+      "tags": [
+        "oscs",
+        "公开漏洞",
+        "反序列化"
+      ],
+      "refs": [
+        "https://www.oscs1024.com/hd/MPS-sx6z-0b74",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-66909",
+        "https://lists.apache.org/thread/lr5d4tg6tf7j29jmw8wt242oowonjqpx",
+        "https://github.com/apache/cxf/commit/7f4cb4e3b765e632216fb7fc8acfa2c64e2179bf",
+        "https://github.com/apache/cxf/pull/3337"
+      ],
+      "affected_products": [],
+      "epss": 0.01148,
+      "epss_percentile": 0.66577,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 98,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 9.8（严重）",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-08-07",
+      "entry_iso": "2026-08-07",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-104935",
+      "name": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability（CVE-2026-104935）",
+      "source": "cisa-kev",
+      "summary": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and …",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：Ivanti Connect Secure；严重性：high",
+      "published": "2026-10-13",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-104935"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      ],
+      "affected_products": [],
+      "epss": 0.25982,
+      "epss_percentile": 0.97982,
+      "kev": true,
+      "kev_date": "2026-10-13",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 95,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 26%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-13",
+      "entry_iso": "2026-10-13",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-106931",
+      "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability（CVE-2026-106931）",
+      "source": "cisa-kev",
+      "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholde…",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：EG Secure Solutions SiteGuard Server Edition；严重性：high",
+      "published": "2026-10-20",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-106931"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      ],
+      "affected_products": [],
+      "epss": 0.0117,
+      "epss_percentile": 0.67149,
+      "kev": true,
+      "kev_date": "2026-10-20",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 95,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 1%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-110936",
+      "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability（CVE-2026-110936）",
+      "source": "cisa-kev",
+      "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or disco…",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：Siemens Software Center；严重性：high",
+      "published": "2026-10-20",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-110936"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      ],
+      "affected_products": [],
+      "epss": 0.00238,
+      "epss_percentile": 0.13997,
+      "kev": true,
+      "kev_date": "2026-10-20",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 95,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-96654",
+      "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability（CVE-2026-96654）",
+      "source": "cisa-kev",
+      "summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinu…",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：Plex Media Server；严重性：high",
+      "published": "2026-10-20",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-96654",
+        "CVE-2026-96652",
+        "CVE-2026-96655",
+        "CVE-2026-96656"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+      ],
+      "affected_products": [],
+      "epss": 0.00465,
+      "epss_percentile": 0.3929,
+      "kev": true,
+      "kev_date": "2026-10-20",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 95,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-85968",
+      "name": "Linux内核IPv4校验和验证漏洞(CVE-2026-99999)",
+      "source": "qianxin-ti",
+      "summary": "Linux内核是全球广泛应用的开源操作系统核心组件，负责硬件资源管理、进程调度、文件系统支持以及网络协议栈实现，为服务器、桌面终端、嵌入式设备和云计算基础设施提供底层运行支撑。其IPv4网络子系统承担着数据包的路由选择、分片重组、校验和计算…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-15",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-99999"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/520912"
+      ],
+      "affected_products": [],
+      "epss": 0.00323,
+      "epss_percentile": 0.24044,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 95,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-15",
+      "entry_iso": "2026-10-15",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-88162",
+      "name": "Drupal Field UI 远程代码执行漏洞(CVE-2026-108097)",
+      "source": "qianxin-ti",
+      "summary": "Drupal 是一款开源的内容管理系统（CMS）和 Web 应用框架，使用 PHP 开发，由全球 Drupal 社区维护，采用 GPL 许可。Drupal 提供内容建模、字段管理、多语言、多站点、权限与工作流、主题/模块扩展等能力，广泛应用…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-14",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-108097"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "影响百万级",
+        "POC公开",
+        "关键漏洞",
+        "技术细节公开",
+        "奇安信CERT验证"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/523106"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 95,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 严重",
+        "存在可用 PoC",
+        "已关联 CVE 编号"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-14",
+      "entry_iso": "2026-10-14",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-21589",
+      "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability（CVE-2026-21589）",
+      "source": "cisa-kev",
+      "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability which could allow an unauthenticated attacker to access specific files within the web application root directory in affected versions. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s …",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：Atlassian Multiple Products；严重性：high",
+      "published": "2026-10-15",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-21589"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      ],
+      "affected_products": [],
+      "epss": 0.12711,
+      "epss_percentile": 0.96261,
+      "kev": true,
+      "kev_date": "2026-10-15",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 92,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 13%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-15",
+      "entry_iso": "2026-10-15",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "oscs-mps-eg5n-ucol",
+      "name": "Jenkins Remoting 反序列化过滤器绕过漏洞",
+      "source": "oscs",
+      "summary": "Jenkins 是开源持续集成/持续交付平台，控制器与 agent 之间通过 Remoting 库以 Java 序列化对象通信，并依赖 JEP-200 类过滤降低反序列化风险。\n受影响版本中，Remoting 在 ObjectInputSt…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-08-06",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": 9,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-70426"
+      ],
+      "cwe": [],
+      "tags": [
+        "oscs",
+        "公开漏洞",
+        "反序列化"
+      ],
+      "refs": [
+        "https://www.oscs1024.com/hd/MPS-eg5n-ucol",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-70426",
+        "https://www.jenkins.io/security/advisory/2026-08-05/#SECURITY-3911",
+        "https://github.com/jenkinsci/remoting/commit/f1123fb515da74560db60645539019cfa77bce49"
+      ],
+      "affected_products": [],
+      "epss": 0.00515,
+      "epss_percentile": 0.42988,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 92,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 9.0（严重）",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-08-06",
+      "entry_iso": "2026-08-06",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-105133",
+      "name": "Ahsay AhsayCBS Improper Authentication Vulnerability（CVE-2026-105133）",
+      "source": "cisa-kev",
+      "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if …",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：Ahsay AhsayCBS；严重性：high",
+      "published": "2026-10-14",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-105133",
+        "CVE-2026-105134"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      ],
+      "affected_products": [],
+      "epss": 0.05794,
+      "epss_percentile": 0.93092,
+      "kev": true,
+      "kev_date": "2026-10-14",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 91,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 6%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-14",
+      "entry_iso": "2026-10-14",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "oscs-mps-3zjh-mefr",
+      "name": "WordPress预认证XSS导致RCE漏洞",
+      "source": "oscs",
+      "summary": "WordPress 是广泛使用的开源内容管理系统，用于建站、内容发布与后台管理。\n受影响版本中，用户登录失败时，系统会把提交的用户名直接拼进错误提示并输出到页面，且未做 HTML 转义。用户名虽经过标签剥离处理，但 PHP 的 strip_…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-08-08",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": 8.9,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-64638"
+      ],
+      "cwe": [],
+      "tags": [
+        "oscs",
+        "公开漏洞",
+        "PoC公开",
+        "XSS"
+      ],
+      "refs": [
+        "https://www.oscs1024.com/hd/MPS-3zjh-mefr",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-64638",
+        "https://hackerone.com/reports/3877102",
+        "https://wordpress.org/news/2026/08/wordpress-7-0-3-release/",
+        "https://github.com/WordPress/wordpress-develop/commit/0d6d42e5093de8cdb47c84a8952642543f873283",
+        "https://pwn.ai/blog/xss2shell"
+      ],
+      "affected_products": [],
+      "epss": 0.00894,
+      "epss_percentile": 0.59089,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 91,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 8.9（高危）",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-08-08",
+      "entry_iso": "2026-08-08",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-0322",
+      "name": "Palo Alto Networks PAN-OS Code Injection Vulnerability（CVE-2026-0322）",
+      "source": "cisa-kev",
+      "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating e…",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：Palo Alto Networks PAN-OS；严重性：high",
+      "published": "2026-10-14",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-0322"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      ],
+      "affected_products": [],
+      "epss": 0.01215,
+      "epss_percentile": 0.68339,
+      "kev": true,
+      "kev_date": "2026-10-14",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 90,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 1%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-14",
+      "entry_iso": "2026-10-14",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-102764",
+      "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability（CVE-2026-102764）",
+      "source": "cisa-kev",
+      "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet expos…",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：BeyondTrust Remote Support；严重性：high",
+      "published": "2026-10-16",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-102764"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      ],
+      "affected_products": [],
+      "epss": 0.0118,
+      "epss_percentile": 0.67433,
+      "kev": true,
+      "kev_date": "2026-10-16",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 90,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 1%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-16",
+      "entry_iso": "2026-10-16",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "kev-cve-2026-76519",
+      "name": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability（CVE-2026-76519）",
+      "source": "cisa-kev",
+      "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. 处置建议：Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each…",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "影响产品：Cisco Secure Email Gateway、Ahsay AhsayCBS；严重性：high",
+      "published": "2026-10-14",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-76519"
+      ],
+      "cwe": [],
+      "tags": [
+        "kev",
+        "在野利用"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
+      ],
+      "affected_products": [],
+      "epss": 0.01573,
+      "epss_percentile": 0.75213,
+      "kev": true,
+      "kev_date": "2026-10-14",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 90,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 2%",
+        "CISA KEV 已知在野利用",
+        "已关联 CVE 编号"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-14",
+      "entry_iso": "2026-10-14",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-5978901",
+      "name": "CVE-2026-113386 Roundcube Webmail before 1.",
+      "source": "chaitin",
+      "summary": "Roundcube Webmail before 1.6.20 and 1.7.x before 1.7.5 are affected by IMAP command injection. A remote authenticated at…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-20",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-113386"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/517bf86a-c6a5-485f-abef-7c94227067a4",
+        "https://bugs.debian.org/1151279",
+        "https://github.com/roundcube/roundcubemail/commit/004adaaeca4f6799715a54d12e3f657f19efcc9a",
+        "https://github.com/roundcube/roundcubemail/commit/bf5bc0266a8cd16be6b640409e64a6c6c2705049",
+        "https://github.com/roundcube/roundcubemail/commit/f62879defc0330ae240c72b83b2d00a8ab337447",
+        "https://github.com/roundcube/roundcubemail/releases/tag/1.6.20"
+      ],
+      "affected_products": [],
+      "epss": 0.00972,
+      "epss_percentile": 0.61614,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-5978953",
+      "name": "CVE-2026-97627 Hidden functionality issue exists in Multiple DVRs (Digital Video Recorders) pro…",
+      "source": "chaitin",
+      "summary": "Hidden functionality issue exists in Multiple DVRs (Digital Video Recorders) provided by Atsumi Electric Co., Ltd. A use…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-20",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-97627"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/3f29ff6d-ea13-4698-a9f9-f2614c77a9d9",
+        "https://jvn.jp/en/jp/JVN88864366/",
+        "https://www.atsumi.co.jp/info-20261005.html"
+      ],
+      "affected_products": [],
+      "epss": 0.00301,
+      "epss_percentile": 0.21682,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6015478",
+      "name": "CVE-2026-114087 Trigger.",
+      "source": "chaitin",
+      "summary": "Trigger.dev 4.5.6之前自托管的Docker Compose部署使用hosting/docker/.env.example中的默认密钥时允许身份验证绕过，因为硬编码的MAGIC_LINK_SECRET让任何人都能伪造有效的ma…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T07:37:14",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-114087"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/b5a647f0-eb79-4b0e-8f58-a35e8470b060",
+        "https://github.com/triggerdotdev/trigger.dev/security/advisories/GHSA-pqxw-g93w-hj9x",
+        "https://www.vulncheck.com/advisories/trigger-dev-before-4.5.6-authentication-bypass-via-hardcoded-default-secrets"
+      ],
+      "affected_products": [],
+      "epss": 0.00346,
+      "epss_percentile": 0.2697,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6015946",
+      "name": "CVE-2026-82814 The Duplicator and Duplicator Pro plugins for WordPress are vulnerable to PHP Ob…",
+      "source": "chaitin",
+      "summary": "The Duplicator and Duplicator Pro plugins for WordPress are vulnerable to PHP Object Injection in all versions up to, an…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-82814"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/6830bd8f-7d4d-48a8-8bed-6133baf52316",
+        "https://duplicator.com/knowledge-base/changelog/#v5-0-0",
+        "https://plugins.trac.wordpress.org/changeset/3687092/duplicator",
+        "https://www.wordfence.com/threat-intel/vulnerabilities/id/767fb03a-58a3-464b-98b2-5378cfec09ae?source=cve"
+      ],
+      "affected_products": [],
+      "epss": 0.0053,
+      "epss_percentile": 0.4395,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-109894",
+      "name": "CVE-2026-109894 Improper Neutralization of Special Elements used in an SQL Command ('S…",
+      "source": "nvd",
+      "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Arraytics Booktics booktics allows SQL Injection.This issue affects Booktics: from n/a through 1.0.29.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：critical",
+      "published": "2026-10-18",
+      "created_at": "2026-10-21T07:37:14",
+      "cvss": 9.3,
+      "severity": "critical",
+      "cves": [
+        "CVE-2026-109894"
+      ],
+      "cwe": [
+        "CWE-89"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-109894",
+        "https://patchstack.com/database/wordpress/plugin/booktics/vulnerability/wordpress-booktics-plugin-1-0-29-sql-injection-vulnerability?_s_id=cve"
+      ],
+      "affected_products": [],
+      "epss": 0.00236,
+      "epss_percentile": 0.13807,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 84,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 9.3（严重）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-18",
+      "entry_iso": "2026-10-18",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-107436",
+      "name": "CVE-2026-107436 Deserialization of Untrusted Data vulnerability in WP Chill Strong Tes…",
+      "source": "nvd",
+      "summary": "Deserialization of Untrusted Data vulnerability in WP Chill Strong Testimonials strong-testimonials allows Object Injection.This issue affects Strong Testimonials: from n/a through 3.3.12.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-18",
+      "created_at": "2026-10-21T07:37:14",
+      "cvss": 8.8,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-107436"
+      ],
+      "cwe": [
+        "CWE-502"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-107436",
+        "https://patchstack.com/database/wordpress/plugin/strong-testimonials/vulnerability/wordpress-strong-testimonials-plugin-3-3-12-php-object-injection-vulnerability?_s_id=cve"
+      ],
+      "affected_products": [],
+      "epss": 0.00355,
+      "epss_percentile": 0.27958,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 80,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 8.8（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-18",
+      "entry_iso": "2026-10-18",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-113405",
+      "name": "CVE-2026-113405 BA-Workflow developed by YS-infoware has a SQL Injection vulnerability…",
+      "source": "nvd",
+      "summary": "BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements to read, modify, and delete database contents.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-20",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": 8.8,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-113405"
+      ],
+      "cwe": [
+        "CWE-89"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-113405",
+        "https://www.chtsecurity.com/news/68333401-bb20-4563-99ed-6299c3b390e9",
+        "https://www.chtsecurity.com/news/e0c80f83-8d79-4d2f-bb0b-d67b6b7315e8",
+        "https://www.twcert.org.tw/en/cp-139-11299-0cbfd-2.html",
+        "https://www.twcert.org.tw/tw/cp-132-11298-d9dd5-1.html"
+      ],
+      "affected_products": [],
+      "epss": 0.00422,
+      "epss_percentile": 0.35422,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 80,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 8.8（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-113406",
+      "name": "CVE-2026-113406 BA-Workflow developed by YS-infoware has a SQL Injection vulnerability…",
+      "source": "nvd",
+      "summary": "BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements to read, modify, and delete database contents.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-20",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": 8.8,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-113406"
+      ],
+      "cwe": [
+        "CWE-89"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-113406",
+        "https://www.chtsecurity.com/news/68333401-bb20-4563-99ed-6299c3b390e9",
+        "https://www.chtsecurity.com/news/e0c80f83-8d79-4d2f-bb0b-d67b6b7315e8",
+        "https://www.twcert.org.tw/en/cp-139-11299-0cbfd-2.html",
+        "https://www.twcert.org.tw/tw/cp-132-11298-d9dd5-1.html"
+      ],
+      "affected_products": [],
+      "epss": 0.00422,
+      "epss_percentile": 0.35423,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 80,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 8.8（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-111884",
+      "name": "CVE-2026-111884 phpMyFAQ before 4.1.9 and 4.2.0-alpha before 4.2.0-beta does not requi…",
+      "source": "nvd",
+      "summary": "phpMyFAQ before 4.1.9 and 4.2.0-alpha before 4.2.0-beta does not require the current password when changing an account e-mail in the user control panel (UserController::updateData, api/user/data/update), checking only the session and CSRF token. An attacker with a hijacked session can set the e-mail to their own mailbox and use the password-reset flow to take over non-2FA accounts, including superadmin.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-17",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": 8.3,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-111884"
+      ],
+      "cwe": [
+        "CWE-308"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-111884",
+        "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-7554-gx6g-xx77",
+        "https://www.vulncheck.com/advisories/phpmyfaq-before-4.1.9-and-4.2.0-alpha-before-4.2.0-beta-missing-current-password-step-up-on-e-mail-change-enables-account-takeover",
+        "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-7554-gx6g-xx77"
+      ],
+      "affected_products": [],
+      "epss": 0.00275,
+      "epss_percentile": 0.18888,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 76,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 8.3（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-17",
+      "entry_iso": "2026-10-17",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-111882",
+      "name": "CVE-2026-111882 phpMyFAQ 3.2.0-alpha before 4.1.9 and 4.2.0-alpha before 4.2.0-beta co…",
+      "source": "nvd",
+      "summary": "phpMyFAQ 3.2.0-alpha before 4.1.9 and 4.2.0-alpha before 4.2.0-beta contains an authentication bypass vulnerability that allows IdP-authenticated users to skip TOTP two-factor authentication through the Keycloak and Entra ID SSO callbacks. Attackers holding a valid or phished IdP identity linked to a 2FA-enabled account can complete the OIDC flow and obtain a fully authenticated session, including administrator accounts.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-17",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": 8.1,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-111882"
+      ],
+      "cwe": [
+        "CWE-287"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-111882",
+        "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-43g3-pp5p-fg96",
+        "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-8fvf-747v-qjr6",
+        "https://www.vulncheck.com/advisories/phpmyfaq-3.2.0-alpha-before-4.1.9-and-4.2.0-alpha-before-4.2.0-beta-totp-2fa-bypass-via-sso-callbacks"
+      ],
+      "affected_products": [],
+      "epss": 0.00387,
+      "epss_percentile": 0.31599,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 74,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 8.1（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-17",
+      "entry_iso": "2026-10-17",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-111090",
+      "name": "CVE-2026-111090 A logic error exists in the signature verification routine resulting i…",
+      "source": "nvd",
+      "summary": "A logic error exists in the signature verification routine resulting in acceptance of unauthenticated update and license files.It is necessary to use only the MyStormshield servers to retrieve update files or licenses, or to use automatic verification via SNS.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-20",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": 7.8,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-111090"
+      ],
+      "cwe": [
+        "CWE-287"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-111090",
+        "https://advisories.stormshield.eu/2026-031/"
+      ],
+      "affected_products": [],
+      "epss": 0.00122,
+      "epss_percentile": 0.01843,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 72,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 7.8（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-110889",
+      "name": "CVE-2026-110889 Generation of Error Message Containing Sensitive Information vulnerabi…",
+      "source": "nvd",
+      "summary": "Generation of Error Message Containing Sensitive Information vulnerability in Gantry Gantry 5 Framework gantry5 allows Retrieve Embedded Sensitive Data.This issue affects Gantry 5 Framework: from n/a through 5.6.4.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-17",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": 7.5,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-110889"
+      ],
+      "cwe": [
+        "CWE-209"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-110889",
+        "https://patchstack.com/database/wordpress/plugin/gantry5/vulnerability/wordpress-gantry-5-framework-plugin-5-6-4-sensitive-data-exposure-vulnerability?_s_id=cve"
+      ],
+      "affected_products": [],
+      "epss": 0.00342,
+      "epss_percentile": 0.26467,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 70,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 7.5（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-17",
+      "entry_iso": "2026-10-17",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-111881",
+      "name": "CVE-2026-111881 FreeRDP from 3.14.1 before 3.32.0 contains an integer underflow in the…",
+      "source": "nvd",
+      "summary": "FreeRDP from 3.14.1 before 3.32.0 contains an integer underflow in the WinPR BMP writer, where a mismatched stride calculation passes SIZE_MAX - 3 to Stream_Zero for sub-byte images. A malicious RDP clipboard peer can return a crafted 1-bpp BMP processed by clipboard_synthesize_image_format_to_bmp for CF_DIB/CF_DIBV5, crashing the client or causing an out-of-bounds write.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：high",
+      "published": "2026-10-17",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": 7.6,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-111881"
+      ],
+      "cwe": [
+        "CWE-191"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-111881",
+        "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-27m7-gwhh-6hhf",
+        "https://www.vulncheck.com/advisories/freerdp-3.14.1-before-3.32.0-integer-underflow-in-bmp-writer-via-clipboard",
+        "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-27m7-gwhh-6hhf"
+      ],
+      "affected_products": [],
+      "epss": 0.00201,
+      "epss_percentile": 0.09446,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 70,
+      "high_value": true,
+      "score_reasons": [
+        "CVSS 7.6（高危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-17",
+      "entry_iso": "2026-10-17",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6015716",
+      "name": "CVE-2026-114105 Adm-zip 0.",
+      "source": "chaitin",
+      "summary": "Adm-zip 0.6.1之前版本包含一个错误的权限分配漏洞，当启用keepOriginalPermission时，攻击者可在提取的文件上设置setuid、setgid或粘滞位。攻击者可构造zip外部文件属性，使其未经掩码直接传入chmod…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T07:37:14",
+      "cvss": null,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-114105"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/61b35d74-665f-46c2-9d14-2ab5f9c967b7",
+        "https://github.com/cthackers/adm-zip/security/advisories/GHSA-qjf8-53jv-w9w6",
+        "https://www.vulncheck.com/advisories/adm-zip-before-0.6.1-privilege-escalation-via-keeporiginalpermission-setuid-bits"
+      ],
+      "affected_products": [],
+      "epss": 0.00105,
+      "epss_percentile": 0.01022,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 65,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 中危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6015853",
+      "name": "CVE-2026-114116 Vyper 0.",
+      "source": "chaitin",
+      "summary": "Vyper 0.1.0b1 before 0.1.0b17 and 0.4.1 through 0.5.0b1 builds its source-line table with str.splitlines(), which treats…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-21",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-114116"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/1c570a05-ad98-4cb7-84ae-6fd639991a00",
+        "https://github.com/vyperlang/vyper/security/advisories/GHSA-wvx7-39qj-2g9v",
+        "https://www.vulncheck.com/advisories/vyper-through-0.5-0b1-literal-value-manipulation-via-line-separators"
+      ],
+      "affected_products": [],
+      "epss": 0.00183,
+      "epss_percentile": 0.07471,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 65,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 中危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-21",
+      "entry_iso": "2026-10-21",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6034549",
+      "name": "CVE-2026-115485 在open-iscsi的iscsiuio组件中发现了一个缺陷�",
+      "source": "chaitin",
+      "summary": "在open-iscsi的iscsiuio组件中发现了一个缺陷。DHCPv6选项解析器对原始网络数据调用strlen()时，未确保存在NUL终止符，导致其读取超出缓冲区进入堆内存。这可能导致守护进程崩溃、1字节堆覆盖或iSCSI发起程序名称损…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-23",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-115485"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/cc2007c3-63c4-43d1-950d-a733637b7597",
+        "https://access.redhat.com/security/cve/CVE-2026-115485",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2556266"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 65,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 中危",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-23",
+      "entry_iso": "2026-10-23",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-87640",
+      "name": "Apache Camel凭据重定向泄露漏洞(CVE-2026-85251)",
+      "source": "qianxin-ti",
+      "summary": "Apache Camel HTTP 组件中存在敏感信息向未经授权实体暴露的漏洞。\n\n此问题影响以下 Apache Camel 版本：4.0.0（含）至 4.18.5（不含）；4.19.0（含）至 4.22.1（不含）。\n\n当 followR…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-19",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-85251"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/522584"
+      ],
+      "affected_products": [],
+      "epss": 0.00487,
+      "epss_percentile": 0.40966,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-19",
+      "entry_iso": "2026-10-19",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-87641",
+      "name": "Apache-Camel-XPath外部实体注入漏洞(CVE-2026-85250)",
+      "source": "qianxin-ti",
+      "summary": "Apache Camel XPath 组件中存在 XML 外部实体引用限制不当漏洞。\n\n该问题影响 Apache Camel：4.0.0 起至 4.18.5 之前版本、4.19.0 起至 4.22.1 之前版本。\n\n当 documentTy…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-19",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-85250"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/522585"
+      ],
+      "affected_products": [],
+      "epss": 0.00542,
+      "epss_percentile": 0.44749,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-19",
+      "entry_iso": "2026-10-19",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-87652",
+      "name": "Apache Camel动态路由控制注入漏洞(CVE-2026-83531)",
+      "source": "qianxin-ti",
+      "summary": "“对代码生成过程控制不当（‘代码注入’）”和“用于表达式语言语句的特殊元素中和不当（‘表达式语言注入’）”漏洞存在于 Apache Camel 中。\n\n该问题影响 Apache Camel：4.4.0 版本中在 4.18.5 之前的版本，以…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-19",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-83531"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/522596"
+      ],
+      "affected_products": [],
+      "epss": 0.00769,
+      "epss_percentile": 0.55126,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 1%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-19",
+      "entry_iso": "2026-10-19",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-87653",
+      "name": "Apache Camel AS2组件SSRF漏洞(CVE-2026-80344)",
+      "source": "qianxin-ti",
+      "summary": "Apache Camel AS2 组件中的服务器端请求伪造（SSRF）漏洞。\n\n此问题影响以下版本的 Apache Camel：4.0.0 起但在 4.18.5 之前的版本，以及 4.19.0 起但在 4.22.1 之前的版本。\n\n在 AS…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-19",
+      "created_at": "2026-10-20T09:14:29",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-80344"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/522597"
+      ],
+      "affected_products": [],
+      "epss": 0.0041,
+      "epss_percentile": 0.34115,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-19",
+      "entry_iso": "2026-10-19",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-87839",
+      "name": "Tapo C320WS认证栈溢出漏洞(CVE-2026-105810)",
+      "source": "qianxin-ti",
+      "summary": "Tapo C320WS  \nV2.0 在本地配网 Wi‑Fi 配置路径中存在经过身份验证的基于栈的缓冲区溢出漏洞。相邻网络上的经过身份验证的攻击者可以提交一个特制请求，其中包含过大的加密密码字段，覆盖堆栈状态，并以 root 权限执行命令。…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-19",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-105810"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/522783"
+      ],
+      "affected_products": [],
+      "epss": 0.002,
+      "epss_percentile": 0.09334,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-19",
+      "entry_iso": "2026-10-19",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-88166",
+      "name": "EventON插件SQL注入漏洞(CVE-2026-93300)",
+      "source": "qianxin-ti",
+      "summary": "WordPress 的 EventON - Subscriber 插件在 1.4.5 及所有更早版本中，由于对用户提供的 `email` 参数缺乏足够的转义，且对现有的 SQL 查询缺乏充分的预处理，存在通用 SQL 注入漏洞。这使未经身份…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-20",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-93300"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/523110"
+      ],
+      "affected_products": [],
+      "epss": 0.00414,
+      "epss_percentile": 0.34579,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "EPSS 0%",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-20",
+      "entry_iso": "2026-10-20",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "ti-qvd-2026-90339",
+      "name": "SystromeVC-qrcode_auth参数拒绝服务漏洞(CVE-2026-107079)",
+      "source": "qianxin-ti",
+      "summary": "Systrome Validation & Certification 1.0 中的一个漏洞允许攻击者通过 `qrcode_auth.html` 组件中的 `t` URL 参数引发拒绝服务。",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-22",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "high",
+      "cves": [
+        "CVE-2026-107079"
+      ],
+      "cwe": [],
+      "tags": [
+        "奇安信TI",
+        "POC公开"
+      ],
+      "refs": [
+        "https://ti.qianxin.com/vulnerability/detail/525283"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": true,
+      "score": 85,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 高危",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-22",
+      "entry_iso": "2026-10-22",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6034598",
+      "name": "CVE-2026-115537 在 gedelumbung HospitalManagement 至 c2d45543789a3887067d3915f69d44cfc2cf76a8 版本中发…",
+      "source": "chaitin",
+      "summary": "在 gedelumbung HospitalManagement 至 c2d45543789a3887067d3915f69d44cfc2cf76a8 版本中发现了一个弱点。这影响了组件 URL Validation 中文件 applica…",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-23",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-115537"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/151ef840-0ca9-4685-9680-9e954145ced1",
+        "https://github.com/gedelumbung/HospitalManagement/",
+        "https://github.com/gedelumbung/HospitalManagement/issues/17",
+        "https://vuldb.com/cve/CVE-2026-115537",
+        "https://vuldb.com/submit/1021801",
+        "https://vuldb.com/vuln/425390"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 65,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 中危",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-23",
+      "entry_iso": "2026-10-23",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6034712",
+      "name": "CVE-2026-115638 OpenStack Ironic 至 39.",
+      "source": "chaitin",
+      "summary": "OpenStack Ironic 至 39.0.1 版本允许通过一个 configdrive 导致拒绝服务，该 configdrive 会产生大量未压缩数据，也称为 gzip 炸弹。",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-23",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-115638"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/18839299-5016-409d-93be-e9e79a26aa08",
+        "https://bugs.launchpad.net/ironic/+bug/2171814"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 65,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 中危",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-23",
+      "entry_iso": "2026-10-23",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "chaitin-ct-6034759",
+      "name": "CVE-2026-54631 Part-DB 是一个用于电子元器件的开源库存管理系统�",
+      "source": "chaitin",
+      "summary": "Part-DB 是一个用于电子元器件的开源库存管理系统。在版本 2.12.1 之前，Part-DB 仓库中提交的 .env 文件包含 APP_SECRET 的固定值（a03498528f5a5fc089273ec9ae5b2849）。官方 …",
+      "principle": "成因与利用思路见原文，建议阅读参考链接确认影响版本。",
+      "attack_scope": "以原文描述的影响范围为准。",
+      "published": "2026-10-23",
+      "created_at": "2026-10-23T07:31:17",
+      "cvss": null,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-54631"
+      ],
+      "cwe": [],
+      "tags": [
+        "chaitin"
+      ],
+      "refs": [
+        "https://stack.chaitin.com/vuldb/detail/3e042dac-9dc2-4953-89b6-8986830e4051",
+        "https://github.com/Part-DB/Part-DB-server/releases/tag/v2.12.1",
+        "https://github.com/Part-DB/Part-DB-server/security/advisories/GHSA-99pw-2v29-v4wc"
+      ],
+      "affected_products": [],
+      "epss": 0,
+      "epss_percentile": 0,
+      "kev": false,
+      "kev_date": "",
+      "poc": true,
+      "poc_disclosed": false,
+      "score": 65,
+      "high_value": true,
+      "score_reasons": [
+        "严重性 中危",
+        "存在可用 PoC",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": true,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-23",
+      "entry_iso": "2026-10-23",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-111885",
+      "name": "CVE-2026-111885 phpMyFAQ from 4.2.0-alpha before 4.2.0-beta contains a missing authori…",
+      "source": "nvd",
+      "summary": "phpMyFAQ from 4.2.0-alpha before 4.2.0-beta contains a missing authorization vulnerability in GroupController::deleteGroup() that omits privilege-level checks on target groups. Authenticated non-SuperAdmin administrators holding GROUP_DELETE can send a crafted groupId to /admin/api/group/delete to permanently destroy higher-privileged groups and strip members' inherited rights.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：medium",
+      "published": "2026-10-17",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": 5.5,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-111885"
+      ],
+      "cwe": [
+        "CWE-1220"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-111885",
+        "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-crh2-cv2j-cpjh",
+        "https://www.vulncheck.com/advisories/phpmyfaq-4.2.0-alpha-before-4.2.0-beta-missing-authorization-via-deletegroup-api",
+        "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-crh2-cv2j-cpjh"
+      ],
+      "affected_products": [],
+      "epss": 0.00265,
+      "epss_percentile": 0.17416,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 54,
+      "high_value": false,
+      "score_reasons": [
+        "CVSS 5.5（中危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-17",
+      "entry_iso": "2026-10-17",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-111869",
+      "name": "CVE-2026-111869 A vulnerability was identified in makeplane plane up to 1.4.2. Impacte…",
+      "source": "nvd",
+      "summary": "A vulnerability was identified in makeplane plane up to 1.4.2. Impacted is an unknown function of the component API Endpoint. Such manipulation of the argument X-Forwarded-For leads to reliance on untrusted inputs in a security decision. It is possible to launch the attack remotely. The exploit is publicly available and might be used.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：medium",
+      "published": "2026-10-18",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": 5.3,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-111869"
+      ],
+      "cwe": [
+        "CWE-20",
+        "CWE-807"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-111869",
+        "https://github.com/makeplane/plane/",
+        "https://github.com/makeplane/plane/issues/9913",
+        "https://vuldb.com/cve/CVE-2026-111869",
+        "https://vuldb.com/submit/1004923",
+        "https://vuldb.com/submit/1005105"
+      ],
+      "affected_products": [],
+      "epss": 0.00543,
+      "epss_percentile": 0.44794,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 52,
+      "high_value": false,
+      "score_reasons": [
+        "CVSS 5.3（中危）",
+        "EPSS 1%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-18",
+      "entry_iso": "2026-10-18",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-111870",
+      "name": "CVE-2026-111870 A security flaw has been discovered in itsmeravitejak Online-Examinati…",
+      "source": "nvd",
+      "summary": "A security flaw has been discovered in itsmeravitejak Online-Examination-System up to e6208e630b14657999bbfe4c9912302d2a1e2449. The affected element is the function isAdmin of the file admin/admin.php. Performing a manipulation results in missing authentication. The attack can be initiated remotely. The exploit has been released to the public and may be used for attacks. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The project was informed of the problem early through an issue report but has not…",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：medium",
+      "published": "2026-10-18",
+      "created_at": "2026-10-21T02:56:19",
+      "cvss": 5.3,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-111870"
+      ],
+      "cwe": [
+        "CWE-287",
+        "CWE-306"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-111870",
+        "https://github.com/itsmeravitejak/Online-Examination-System/",
+        "https://github.com/itsmeravitejak/Online-Examination-System/issues/4",
+        "https://vuldb.com/cve/CVE-2026-111870",
+        "https://vuldb.com/submit/1005047",
+        "https://vuldb.com/vuln/421582"
+      ],
+      "affected_products": [],
+      "epss": 0.00429,
+      "epss_percentile": 0.36103,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 52,
+      "high_value": false,
+      "score_reasons": [
+        "CVSS 5.3（中危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-18",
+      "entry_iso": "2026-10-18",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    },
+    {
+      "id": "nvd-cve-2026-110882",
+      "name": "CVE-2026-110882 Missing Authorization vulnerability in Cozy Vision Technologies Pvt. L…",
+      "source": "nvd",
+      "summary": "Missing Authorization vulnerability in Cozy Vision Technologies Pvt. Ltd. SMS Alert Order Notifications sms-alert allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects SMS Alert Order Notifications: from n/a through 4.0.1.",
+      "principle": "见原始公告与参考链接。",
+      "attack_scope": "严重性：medium",
+      "published": "2026-10-17",
+      "created_at": "2026-10-20T08:24:05",
+      "cvss": 4.3,
+      "severity": "medium",
+      "cves": [
+        "CVE-2026-110882"
+      ],
+      "cwe": [
+        "CWE-862"
+      ],
+      "tags": [
+        "nvd"
+      ],
+      "refs": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-110882",
+        "https://patchstack.com/database/wordpress/plugin/sms-alert/vulnerability/wordpress-sms-alert-order-notifications-plugin-4-0-1-broken-access-control-vulnerability?_s_id=cve"
+      ],
+      "affected_products": [],
+      "epss": 0.00185,
+      "epss_percentile": 0.077,
+      "kev": false,
+      "kev_date": "",
+      "poc": false,
+      "poc_disclosed": false,
+      "score": 44,
+      "high_value": false,
+      "score_reasons": [
+        "CVSS 4.3（中危）",
+        "EPSS 0%",
+        "已关联 CVE 编号",
+        "近 7 天披露"
+      ],
+      "translated": false,
+      "pushed": false,
+      "has_nuclei": false,
+      "entry_date": "2026-10-17",
+      "entry_iso": "2026-10-17",
+      "poc_source": "none",
+      "nuclei_yaml": ""
+    }
+  ],
+  "stats": {
+    "total": 53,
+    "high_value": 49,
+    "unpushed_high_value": 49,
+    "today": 0,
+    "translated": 23,
+    "pending_translate": 30,
+    "kev": 9,
+    "poc": 31,
+    "by_source": {
+      "chaitin": 12,
+      "qianxin-ti": 16,
+      "oscs": 3,
+      "cisa-kev": 9,
+      "nvd": 13
+    },
+    "templates": 0,
+    "collect_running": false,
+    "sync_running": false,
+    "last_collect": "2026-10-28T16:00:00",
+    "push_enabled": false,
+    "push_channels": 0,
+    "llm_available": false,
+    "version": "1.2.0"
+  },
+  "sources": {
+    "builtin": [
+      {
+        "id": "seebug",
+        "name": "Seebug Paper",
+        "kind": "rss",
+        "url": "https://paper.seebug.org/rss/",
+        "description": "知道创宇 Seebug 漏洞文章 RSS",
+        "builtin": true,
+        "enabled": true
+      },
+      {
+        "id": "先知",
+        "name": "先知社区",
+        "kind": "rss",
+        "url": "https://xz.aliyun.com/feed",
+        "description": "阿里云先知社区技术文章 RSS",
+        "builtin": true,
+        "enabled": true
+      },
+      {
+        "id": "exploit-db",
+        "name": "Exploit-DB",
+        "kind": "rss",
+        "url": "https://www.exploit-db.com/rss.xml",
+        "description": "公开 Exploit 数据库 RSS",
+        "builtin": true,
+        "enabled": true
+      },
+      {
+        "id": "chaitin",
+        "name": "长亭漏洞库",
+        "kind": "json",
+        "url": "https://stack.chaitin.com/vuldb/index",
+        "description": "CT Stack 公开 API，含 CT 编号 / CVSS / CVE",
+        "builtin": true,
+        "enabled": true
+      },
+      {
+        "id": "oscs",
+        "name": "OSCS 开源安全情报",
+        "kind": "json",
+        "url": "https://www.oscs1024.com/cm",
+        "description": "墨菲安全开源组件漏洞预警",
+        "builtin": true,
+        "enabled": true
+      },
+      {
+        "id": "qianxin-ti",
+        "name": "奇安信威胁情报中心",
+        "kind": "json",
+        "url": "https://ti.qianxin.com/",
+        "description": "一日重点漏洞与 PoC/EXP 新增",
+        "builtin": true,
+        "enabled": true
+      },
+      {
+        "id": "cisa-kev",
+        "name": "CISA KEV",
+        "kind": "json",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "description": "已知在野利用漏洞目录",
+        "builtin": true,
+        "enabled": false
+      },
+      {
+        "id": "nvd",
+        "name": "NVD",
+        "kind": "json",
+        "url": "https://nvd.nist.gov/",
+        "description": "CVE / CVSS / CPE 官方数据",
+        "builtin": true,
+        "enabled": false
+      },
+      {
+        "id": "github-advisory",
+        "name": "GitHub Advisory",
+        "kind": "json",
+        "url": "https://github.com/advisories",
+        "description": "GitHub 安全公告",
+        "builtin": true,
+        "enabled": false
+      }
+    ],
+    "custom": []
+  },
+  "settings": {
+    "llm": {
+      "base": "https://api.openai.com",
+      "key": "",
+      "model": "gpt-4o-mini",
+      "timeout": 60
+    },
+    "collect": {
+      "interval_minutes": 10,
+      "fetch_limit": 10,
+      "keep_days": 90,
+      "auto_translate": true,
+      "article_fetch": true,
+      "timeout_seconds": 25
+    },
+    "nuclei": {
+      "repo": "projectdiscovery/nuclei-templates",
+      "ref": "main",
+      "remote_limit": 20,
+      "fetch_remote": false,
+      "gen_templates": true,
+      "sync_enabled": true,
+      "sync_limit": 0
+    },
+    "enrich": {
+      "enabled": true,
+      "epss": true,
+      "kev": true,
+      "github_advisory": true,
+      "nvd": true,
+      "timeout_seconds": 20,
+      "cache_hours": 24,
+      "github_token": ""
+    },
+    "sources": {
+      "custom": [],
+      "disabled": []
+    },
+    "push": {
+      "enabled": false,
+      "min_score": 60,
+      "min_severity": "",
+      "require_cve": false,
+      "require_poc": false,
+      "keywords_include": [],
+      "keywords_exclude": [],
+      "max_per_batch": 10,
+      "cooldown_minutes": 30,
+      "channels": []
+    },
+    "config_file": "demo (read-only)",
+    "key_set": false
+  },
+  "push": {
+    "enabled": false,
+    "min_score": 60,
+    "min_severity": "",
+    "require_cve": false,
+    "require_poc": false,
+    "keywords_include": [],
+    "keywords_exclude": [],
+    "max_per_batch": 10,
+    "cooldown_minutes": 30,
+    "channels": [],
+    "pending": 0
+  },
+  "history": [],
+  "collect_status": {
+    "running": false,
+    "last_run": "2026-10-28T16:00:00",
+    "last_result": {
+      "fetched": 60,
+      "kept": 60,
+      "high_value": 42
+    },
+    "interval_minutes": 10,
+    "next_run": "2026-10-28T16:10:00"
+  },
+  "llm_status": {
+    "available": false,
+    "model": "gpt-4o-mini",
+    "base": "https://api.openai.com",
+    "key_set": false,
+    "pending_translate": 30
+  },
+  "nuclei_status": {
+    "cloned": false,
+    "last_commit": "",
+    "last_commit_short": "",
+    "last_sync": "",
+    "last_imported": 0,
+    "local_templates": 0,
+    "running": false,
+    "last_run": "",
+    "last_result": null,
+    "repo": "projectdiscovery/nuclei-templates",
+    "ref": "main"
+  },
+  "templates": {
+    "dir": "demo (read-only)",
+    "items": []
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+web/dist
+data
+bin
+*.exe
+config.yaml
+.git
+scripts/mock_received.json

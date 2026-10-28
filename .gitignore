@@ -1,0 +1,13 @@
+data/
+config.yaml
+bin/
+*.exe
+*.zip
+dist/
+web/node_modules/
+scripts/mock_received.json
+.wrangler/
+.dev.vars
+.env*
+deploy/cloudflare/.wrangler/
+wrangler.million.toml

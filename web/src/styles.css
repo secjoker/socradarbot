@@ -1,0 +1,180 @@
+/* SocradarBot 设计系统 v2 —— 浅色数据台
+   参考 CVE 漏洞库类站点的信息架构：高密度表格、显性筛选、克制的品牌色。
+   品牌：深酒红 #7A1B3D（导航）/ 链接蓝 #2563EB / 风险色分级 */
+
+:root {
+  --bg: #f4f5f7;
+  --bg-soft: #eef0f3;
+  --panel: #ffffff;
+  --panel-2: #f8f9fb;
+  --line: #e6e8ec;
+  --line-strong: #d3d8df;
+  --text: #1b2430;
+  --muted: #5d6a7a;
+  --dim: #8a95a3;
+  --brand: #7a1b3d;
+  --brand-2: #98234c;
+  --link: #2563eb;
+  --header: #7a1b3d;
+  --header-2: #5d122e;
+  --critical: #d92d20;
+  --high: #e8590c;
+  --medium: #b7791f;
+  --low: #1d4ed8;
+  --info: #6b7280;
+  --ok: #0f9d58;
+  --warn: #e8590c;
+  --danger: #d92d20;
+  --surface-hover: rgba(15, 23, 42, 0.045);
+  --surface-subtle: #f8fafc;
+  --input-bg: #ffffff;
+  --code-bg: #0f172a;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 8px 24px rgba(16, 24, 40, 0.06);
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { color: #1d4ed8; }
+button, input, select, textarea { font-family: inherit; font-size: inherit; }
+::selection { background: rgba(122, 27, 61, 0.16); }
+:focus-visible { outline: 2px solid rgba(37, 99, 235, 0.55); outline-offset: 2px; }
+
+.container { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+
+/* ── 面板与排版 ─────────────────────────────── */
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.panel-pad { padding: 20px 22px; }
+.section-title { font-size: 15px; font-weight: 650; margin: 0; color: var(--text); }
+.section-desc { margin: 4px 0 0; color: var(--muted); font-size: 12.5px; }
+.eyebrow { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim); font-weight: 600; }
+.muted { color: var(--muted); }
+.dim { color: var(--dim); }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.nowrap { white-space: nowrap; }
+
+/* ── 按钮 ───────────────────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  padding: 8px 14px; border-radius: var(--radius-sm); border: 1px solid var(--line-strong);
+  background: #fff; color: var(--text); font-size: 13px; font-weight: 550;
+  cursor: pointer; transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+.btn:hover { background: var(--surface-subtle); border-color: #b9c0ca; }
+.btn:active { transform: translateY(1px); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+.btn-primary:hover { background: var(--brand-2); border-color: var(--brand-2); }
+.btn-ghost { background: transparent; border-color: transparent; color: var(--muted); }
+.btn-ghost:hover { background: var(--surface-hover); color: var(--text); }
+.btn-danger { background: #fff; border-color: #f0b4b4; color: var(--danger); }
+.btn-danger:hover { background: #fef2f2; }
+.btn-sm { padding: 5px 10px; font-size: 12px; border-radius: 7px; }
+
+/* ── 徽标与状态 ─────────────────────────────── */
+.chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 2px 8px; border-radius: 4px; font-size: 11.5px; font-weight: 550;
+  background: #f1f3f6; color: var(--muted); border: 1px solid transparent; white-space: nowrap;
+}
+.chip-line { border-color: var(--line); background: #fff; }
+.chip-cve { color: var(--link); background: #eef4ff; }
+.chip-kev { color: #b42318; background: #fef3f2; }
+.chip-poc { color: #b54708; background: #fffaeb; }
+.chip-epss { color: #5925dc; background: #f4f3ff; }
+.chip-ok { color: #067647; background: #ecfdf3; }
+
+.sev { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600;
+  padding: 1px 7px; border-radius: 4px; letter-spacing: 0.01em; white-space: nowrap; }
+.sev-critical { color: #b42318; background: #fef3f2; }
+.sev-high { color: #b54708; background: #fffaeb; }
+.sev-medium { color: #8a5a00; background: #fefbe8; }
+.sev-low { color: #1d4ed8; background: #eff4ff; }
+.sev-info { color: #475467; background: #f2f4f7; }
+.sev-unknown { color: var(--dim); background: #f2f4f7; }
+
+/* ── 表单 ───────────────────────────────────── */
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field > label, .field-label { font-size: 12.5px; color: var(--muted); font-weight: 550; }
+.field small { color: var(--dim); font-size: 11.5px; line-height: 1.5; }
+.input, input[type="text"], input[type="password"], input[type="number"], input:not([type]), input[type="search"], select, textarea {
+  width: 100%; padding: 8px 11px; border-radius: var(--radius-sm);
+  background: var(--input-bg); border: 1px solid var(--line-strong); color: var(--text);
+  font-size: 13px; transition: border-color 0.15s, box-shadow 0.15s;
+}
+.input:hover, input:hover, select:hover, textarea:hover { border-color: #b9c0ca; }
+.input:focus, input:focus, select:focus, textarea:focus {
+  outline: none; border-color: var(--link); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+textarea { resize: vertical; min-height: 78px; line-height: 1.6; }
+input[type="number"] { max-width: 150px; }
+input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--brand); }
+.form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 18px; }
+.form-grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px 18px; }
+.check-row { display: flex; align-items: flex-start; gap: 9px; color: var(--text); font-size: 13px; }
+.check-row input { margin-top: 3px; flex: none; }
+.check-row span small { display: block; color: var(--dim); font-size: 11.5px; margin-top: 2px; }
+
+/* 开关 */
+.switch { position: relative; display: inline-flex; align-items: center; width: 40px; height: 22px; flex: none; }
+.switch input { opacity: 0; width: 0; height: 0; position: absolute; }
+.switch span { position: absolute; inset: 0; background: #d3d8df; border-radius: 999px; transition: background 0.18s; cursor: pointer; }
+.switch span::after { content: ""; position: absolute; width: 16px; height: 16px; left: 3px; top: 3px;
+  background: #fff; border-radius: 50%; transition: transform 0.18s; box-shadow: 0 1px 2px rgba(16,24,40,.2); }
+.switch input:checked + span { background: var(--brand); }
+.switch input:checked + span::after { transform: translateX(18px); }
+
+/* ── 反馈 ───────────────────────────────────── */
+.notice { border-radius: var(--radius-sm); padding: 10px 13px; font-size: 12.5px; border: 1px solid transparent; }
+.notice-ok { color: #067647; background: #ecfdf3; border-color: #abefc6; }
+.notice-err { color: #b42318; background: #fef3f2; border-color: #fecdca; }
+.notice-info { color: #175cd3; background: #eff8ff; border-color: #b2ddff; }
+.empty { text-align: center; color: var(--muted); padding: 56px 16px; }
+.empty b { display: block; color: var(--text); font-size: 15px; margin-bottom: 6px; }
+
+/* 骨架屏 */
+.skeleton { position: relative; overflow: hidden; background: #eaecf0; border-radius: 6px; }
+.skeleton::after { content: ""; position: absolute; inset: 0; transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+  animation: shimmer 1.4s infinite; }
+@keyframes shimmer { to { transform: translateX(100%); } }
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #cfd5dd; border-radius: 8px; border: 2px solid var(--bg); }
+::-webkit-scrollbar-thumb:hover { background: #b6bfc9; }
+
+/* ── 响应式 ─────────────────────────────────── */
+@media (max-width: 900px) {
+  .container { padding: 0 18px; }
+  .form-grid, .form-grid-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  body { font-size: 13.5px; }
+  .container { padding: 0 14px; }
+  .panel-pad { padding: 16px; }
+  .form-grid, .form-grid-3 { grid-template-columns: 1fr; }
+  .btn { padding: 8px 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

@@ -1,0 +1,20 @@
+# SocradarBot 在线预览（只读）
+#
+# 本地预览：npx wrangler dev
+# 线上部署：npx wrangler deploy
+# 一键部署：README 中的 Deploy to Cloudflare 按钮
+
+name = "socradarbot-preview"
+main = "deploy/cloudflare/worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+# 需要自定义域名时取消注释，并确保域名托管在当前 Cloudflare 账号：
+# routes = [{ pattern = "socradarbot.example.com", custom_domain = true }]
+
+[assets]
+directory = "./web/dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+# 让 Worker 先处理请求，才能注入只读演示横幅并拦截 /api 写操作
+run_worker_first = true
