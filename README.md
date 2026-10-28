@@ -434,7 +434,7 @@ node scripts/e2e_test.mjs                       # 真实采集 + 推送端到端
 
 ## 十一、安全与脱敏
 
-- **仓库不含运行态数据**：`config.yaml`、`data/`、`dist/`、`bin/`、`*.zip`、`web/node_modules/` 均已写入 `.gitignore`，不会提交。
+- **仓库不含运行态数据**：`config.yaml`、`data/`、根目录 `dist/`（打包产物）、`bin/`、`*.zip`、`web/node_modules/` 均已写入 `.gitignore`，不会提交；`web/dist/` 作为一键部署所需的前端产物单独提交。
 - **示例配置无凭据**：`config.example.yaml` 中 `llm.key`、`github_token`、各渠道 `webhook`/`secret` 均为空或占位符。
 - **演示数据已脱敏**：Cloudflare 预览仅包含公开漏洞元数据（CVE、摘要、等级、评分等），剔除 PoC 代码、nuclei 模板正文、内部地址与本机路径，并禁用全部写操作。
 - **凭据管理**：完整服务请将密钥写入本地 `config.yaml` 或环境变量（`SOCRADARBOT_LLM_KEY`、`SOCRADARBOT_GITHUB_TOKEN` 等），不要提交到仓库。
