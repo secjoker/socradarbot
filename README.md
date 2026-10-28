@@ -14,7 +14,7 @@
 [![在线预览](https://img.shields.io/badge/Online%20Preview-socradarbot.million.cc.cd-7A1B3D)](https://socradarbot.million.cc.cd)
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/secjoker/socradarbot)
 
-![情报流](https://socradarbot.million.cc.cd/screenshots/feed.png)
+![情报流](docs/screenshots/feed.png)
 
 ## 在线预览（只读）
 
@@ -313,7 +313,7 @@ curl -X POST localhost:8100/api/vulns/<ID>/push # 单条手动推送
 
 界面参考 CVE 漏洞库的信息架构完成改版：浅色数据台、深酒红顶栏；首页由「英雄区（收录/KEV/PoC/高价值）+ 六维筛选 + 桌面高密度表格 + 移动卡片」组成；详情页为「风险摘要 + 正文分区 + 风险画像侧栏」；配置页拆为 AI / 采集与源 / 情报推送 / 模板库四个分区。响应式断点 900px 与 640px，已在 1440px 与 500px 视口实测无横向溢出。设计对比、令牌与差距分析见 [`docs/DESIGN.md`](docs/DESIGN.md)。
 
-![推送配置](https://socradarbot.million.cc.cd/screenshots/push-settings.png)
+![推送配置](docs/screenshots/push-settings.png)
 
 > 上图为配置示例：可添加企业微信、钉钉、飞书、Slack、Telegram 或通用 Webhook，并单独启停。
 
