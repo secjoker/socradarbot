@@ -3,7 +3,7 @@ config.yaml
 bin/
 *.exe
 *.zip
-dist/
+/dist/
 web/node_modules/
 scripts/mock_received.json
 .wrangler/
